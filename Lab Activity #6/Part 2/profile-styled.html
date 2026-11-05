@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kae Española - Personal Profile</title>
+
+        <!-- METHOD 1: External CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- METHOD 2: Internal CSS -->
+        <style>
+            /* REQUIRED SELECTOR: Group Selector */
+            h1, h2 {
+                color: #2c3e50; /* Text property */
+                font-family: 'Arial', sans-serif; /*Text property */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Wrapper added for the ID selector -->
+        <div id="profile-container">
+
+            <!-- Personal Profile Webpage - Lab Exercise 5 -->
+
+            <!-- METHOD 3: Inline CSS -->
+            <h1 style="text-align: center">Kae Española</h1>
+            <p style="text-align: center">Welcome to my personal profile page!</p>
+
+            <hr>
+
+            <!-- Wrapper added for the Descendant selector -->
+            <div id="about-section">
+                <h2>About Me</h2>
+                <p>I am a student currently enrolled in <strong>BS Computer Science</strong>. I have a strong interest in technology, web development, and digital media. Outside of class, my main hobbies include playing volleyball, watching youtube ARGs, and listening to music.</p>
+                
+                <p>Something I genuinely enjoy is <mark>exploring new digital art tools</mark> and building small projects on my computer. Through this course, I want to learn how to create clean, responsive websites from scractch and master modern web design techniques.</p>
+
+                <p class="highlight">A fun fact about me: I can solve a Rubik's cube in under <i>30 seconds</i>, and my brain basically runs on caffeine-or <sub>H2O</sub> and coffee! <small>(Mostly coffee, honestly.)</small></p>
+            </div>
+
+            <hr>
+
+            <h2>My Favorite Link</h2>
+            <p>Check out one of my favorite platforms for creative inspiration: <a href="https://www.github.com" target="_blank">GitHub</a></p>
+        </div>
+    </body>
+</html>

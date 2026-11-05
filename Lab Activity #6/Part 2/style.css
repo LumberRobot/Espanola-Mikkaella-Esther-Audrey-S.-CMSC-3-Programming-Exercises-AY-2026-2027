@@ -1,0 +1,55 @@
+/*
+    Color Palette (5 colors amx):
+    #f4f4f9 (page background)
+    #ffffff (container background)
+    #2c3e50 (headings/text)
+    #3498db (accents and links)
+    #e74c3c (link hover)
+*/
+
+/* REQUIRED SELECTOR: Element Selector 1 */
+body {
+    background-color: #f4f4f9; /*Background property */
+    color: #2c3e50; /*Text color property */
+}
+
+/* REQUIRED SELECTOR: Element Selector 2 */
+p {
+    font-size: 18px; /*Font size property */
+    line-height: 1.6; /*Line height property */
+}
+
+/* REQUIRED SELECTOR: ID Selector */
+#profile-container {
+    max-width: 800px;
+    background-color: #ffffff; /* Background property */
+    margin: 30px auto;         /* Spacing and Border property (outside space) */
+    padding: 30px;             /* Spacing and Border property (inside space) */
+    border: 2px solid #cccccc; /* Spacing and Border property */
+    border-radius: 10px;       /* Spacing and Border property */
+}
+
+/* REQUIRED SELECTOR: Class Selector */
+.highlight {
+    background-color: #e8f4f8; /* Background property */
+    padding: 15px;             /* Spacing and Border property */
+    border-left: 5px solid #3498db; /* Spacing and Border property */
+}
+
+/* REQUIRED SELECTOR: Descendant Selector */
+/* Targets ONLY paragraphs inside the about-section div */
+#about-section p {
+    text-align: justify;       /* Text property */
+}
+
+/* REQUIRED SELECTOR: Pseudo-class Selector */
+a {
+    color: #3498db;            /* Text property */
+    text-decoration: none;     /* Text property */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e74c3c;            /* Text property */
+    text-decoration: underline; /* Text property */
+}
