@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kae Española - Personal Profile</title>
+        
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            h1, h2 {
+                font-family: Arial, sans-serif; 
+                color: #2c3e50; 
+            }
+        </style>
+    </head>
+    <body>
+        <div id="profile-container">
+
+            <h1 style="text-align: center;">Kae Española</h1>
+            <p style="text-align: center;">Welcome to my personal profile page!</p>
+
+            <!-- LAB 7: Added Navigation to demonstrate the :target pseudo-class -->
+            <nav style="text-align: center; margin-bottom: 20px;">
+                <a href="#about-section">Jump to About Me</a> | 
+                <a href="#link-section">Jump to Links</a>
+            </nav>
+
+            <hr>
+
+            <div id="about-section">
+                <h2>About Me</h2>
+                <!-- LAB 7: Added 'dropcap' class for the ::first-letter pseudo-element -->
+                <p class="dropcap">I am a student currently enrolled in <strong>BS Computer Science</strong>. I have a strong interest in technology, web development, and digital media. Outside of class, my main hobbies include playing volleyball, watching youtube ARGs, and listening to music.</p>
+               
+                <p>Something I genuinely enjoy is <mark>exploring new digital art tools</mark> and building small projects on my computer. Through this course, I want to learn how to create clean, responsive websites from scractch and master modern web design techniques.</p>
+
+                <p class="highlight">A fun fact about me: I can solve a Rubik's cube in under <i>30 seconds</i>, and my brain basically runs on caffeine-or <sub>H2O</sub> and coffee! <small>(Mostly coffee, honestly.)</small></p>
+            </div>
+
+            <hr>
+
+            <!-- LAB 7: Added ID 'link-section' to demonstrate the :target pseudo-class -->
+            <div id="link-section">
+                <h2>My Favorite Link</h2>
+                <p>Check out one of my favorite platforms for creative inspiration: <a href="https://www.github.com" target="_blank">GitHub</a></p>
+                
+                <!-- LAB 7: Added form elements to demonstrate :focus, :required, and attribute selectors -->
+                <div style="margin-top: 20px;">
+                    <input type="text" placeholder="Leave a comment..." required>
+                    <button type="button">Send</button>
+                </div>
+            </div>
+        
+        </div>
+    </body>
+</html>
